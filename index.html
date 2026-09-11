@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>a little place called us</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sound-toggle" id="soundToggle">
+  <span class="sound-icon">♫</span> <span id="soundLabel">sound off</span>
+</div>
+<audio id="bgAudio" loop preload="none">
+  <!-- optional: add your own audio file, e.g. photos/our-song.mp3, and set the src below -->
+  <!-- <source src="photos/our-song.mp3" type="audio/mpeg"> -->
+</audio>
+
+<div class="grain"></div>
+
+<!-- HERO -->
+<section class="screen hero" id="hero">
+  <div class="hero-inner">
+    <p class="eyebrow-line">SHAR &times; SOURU</p>
+    <h1 class="hero-title">a little place<br>called us</h1>
+    <p class="hero-date">28.06.2026</p>
+    <button class="enter-btn" id="enterBtn">
+      <span class="enter-arrow">&#8595;</span>
+      <span>enter</span>
+    </button>
+  </div>
+  <div class="floating-dot"></div>
+</section>
+
+<!-- INTRO -->
+<section class="screen intro" id="intro">
+  <div class="intro-text reveal">
+    <p>Before there was us&hellip;</p>
+    <p>there were just two idiots<br>who somehow became best friends.</p>
+  </div>
+  <p class="keep-going reveal">keep going &darr;</p>
+</section>
+
+<!-- CHAPTER I -->
+<section class="chapter chapter-1">
+  <p class="chapter-label reveal">Chapter I &mdash; Before we became &ldquo;us&rdquo;</p>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/01.JPEG" alt="Besties who laughed together" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">01.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">01</span>
+      <p class="memory-lede">From besties who laughed with each other&hellip;</p>
+      <p>to somehow becoming the people who laugh at the same stupid things five years later.</p>
+      <p class="handwritten">We really had no idea what was coming.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/02.JPEG" alt="Gym bros before hoes" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">02.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">02</span>
+      <p class="memory-lede">Gym bros before hoes.</p>
+      <p>Because apparently the foundation of our love story was questionable gym advice.</p>
+      <p class="handwritten">Look at us. Thinking we're just bros.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/03.JPEG" alt="College fest core memory" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">03.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">03</span>
+      <p class="memory-lede">Then you came to my college fest&hellip;</p>
+      <p>and somehow turned an ordinary college day into one of my core memories.</p>
+      <p class="handwritten">You probably didn't know it at the time. But I remember.</p>
+    </div>
+  </article>
+</section>
+
+<!-- CHAPTER II -->
+<section class="chapter chapter-2">
+  <p class="chapter-label reveal">Chapter II &mdash; Okay&hellip; maybe there was something here.</p>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/04.JPEG" alt="First Goa trip" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">04.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">04</span>
+      <p class="memory-lede">Our first Goa trip together.</p>
+      <p>Our first proper adventure. And possibly the first time we realised that being around each other for an unreasonable amount of time was actually&hellip; pretty great.</p>
+      <p class="handwritten">We should've known.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/05.JPEG" alt="First date" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">05.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">05</span>
+      <p class="memory-lede">Our first date.</p>
+      <p>Officially a date. Unofficially, two best friends trying very hard to act normal.</p>
+      <p class="handwritten">Spoiler: we weren't normal.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full memory-quiet">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/06.JPEG" alt="First hospital visit" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">06.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">06</span>
+      <p class="memory-lede">Our first hospital visit together.</p>
+      <p>Not exactly the date anyone puts on their Pinterest board. But somehow, it became one of my favourite memories &mdash; because that's when I realised I didn't just want you around for the fun parts.</p>
+      <p class="handwritten">I wanted you around. Period.</p>
+    </div>
+  </article>
+</section>
+
+<!-- CHAPTER III - RAICHAK -->
+<section class="chapter chapter-3">
+  <p class="chapter-label reveal">Chapter III &mdash; And then came Raichak.</p>
+
+  <div class="raichak-intro">
+    <p class="reveal fade-line">07</p>
+    <p class="reveal fade-line">There was this one trip&hellip;</p>
+  </div>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/07.JPEG" alt="Raichak" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">07.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <p class="memory-lede">Raichak.</p>
+      <p>The trip where it all began.</p>
+      <p>Somewhere between that trip, all the conversations, and everything we weren't saying&hellip; something changed.</p>
+      <p class="handwritten">And suddenly, &ldquo;best friends&rdquo; didn't quite feel like enough anymore.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-question">
+    <div class="question-build reveal">
+      <span class="memory-index">08</span>
+      <p class="memory-lede">And then you asked me<br>to be your girlfriend.</p>
+      <p class="typed-yes">And I said yes.</p>
+      <div class="status-arrow">
+        <span>besties</span>
+        <span class="arrow">&rarr;</span>
+        <span>boyfriend + girlfriend</span>
+      </div>
+    </div>
+    <div class="photo-frame reveal-photo">
+      <img src="photos/08.JPEG" alt="The question" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">08.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <p class="memory-lede">28.06.2026</p>
+      <p>The day &ldquo;us&rdquo; officially became a thing.</p>
+      <p class="handwritten">Well, that escalated quickly.</p>
+    </div>
+  </article>
+
+  <!-- COUNTER -->
+  <div class="counter-block reveal">
+    <p class="counter-label">We've been us for&hellip;</p>
+    <div class="counter-numbers">
+      <div class="counter-unit"><span id="countDays">0</span><label>days</label></div>
+      <div class="counter-unit"><span id="countHours">0</span><label>hours</label></div>
+      <div class="counter-unit"><span id="countMinutes">0</span><label>minutes</label></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER IV -->
+<section class="chapter chapter-4">
+  <p class="chapter-label reveal">Chapter IV &mdash; Then came all the little things.</p>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/09.JPEG" alt="Delhi" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">09.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">09</span>
+      <p class="memory-lede">Then you came to Delhi.</p>
+      <p>&ldquo;Man ban jaaye toh Dilli zyada door sach mein nahi hai,&rdquo; I guess.</p>
+      <p class="handwritten">And suddenly, distance didn't feel quite so impossible.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/10.JPEG" alt="First flowers" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">10.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">10</span>
+      <p class="memory-lede">I gave you flowers for the first time.</p>
+      <p>Because apparently I can be romantic sometimes.</p>
+      <p class="handwritten">Sometimes.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/11.JPEG" alt="First house party" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">11.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">11</span>
+      <p class="memory-lede">Our first house party.</p>
+      <p>You drank here for the first time with me. Hehehe.</p>
+      <p class="handwritten">Historical event, honestly.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-metro">
+    <div class="metro-card reveal">
+      <p class="metro-title">DELHI METRO</p>
+      <p class="metro-sub">SHAR &times; SOURU</p>
+      <p class="metro-line">EVERYWHERE &rarr; TOGETHER</p>
+    </div>
+    <div class="photo-frame reveal-photo">
+      <img src="photos/12.JPEG" alt="Delhi Metro" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">12.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">12</span>
+      <p class="memory-lede">Delhi Metro mein aapka swagat hai.</p>
+      <p class="handwritten">Turns out every place is fun if it's with you.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/13.JPEG" alt="First rickshaw" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">13.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">13</span>
+      <p class="memory-lede">Our first rickshaw together.</p>
+      <p>No luxury cars. No fancy dates. Just us, a questionable suspension system, and somehow one of my favourite memories.</p>
+    </div>
+  </article>
+</section>
+
+<!-- CHAPTER V -->
+<section class="chapter chapter-5">
+  <p class="chapter-label reveal">Chapter V &mdash; The little things became everything.</p>
+
+  <article class="memory memory-full memory-quiet">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/14.JPEG" alt="First Gurudwara visit" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">14.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">14</span>
+      <p class="memory-lede">Our first Gurudwara visit.</p>
+      <p>A little peace. A little prayer. And you beside me.</p>
+      <p class="handwritten">Some moments don't need much explaining.</p>
+    </div>
+  </article>
+
+  <article class="memory memory-full">
+    <div class="photo-frame reveal-photo">
+      <img src="photos/15.JPEG" alt="Manipal" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">15.jpg</span>
+    </div>
+    <div class="memory-text reveal">
+      <span class="memory-index">15</span>
+      <p class="memory-lede">Manipal.</p>
+      <p>And somewhere along the way I realised something very simple: <em>tumse door sahi mein nahi reh paati.</em></p>
+      <p class="handwritten">Apparently, distance is not my thing. You are.</p>
+    </div>
+  </article>
+
+  <!-- EASTER EGGS -->
+  <div class="easter-eggs reveal">
+    <button class="egg" data-msg="I still have no idea how you tolerate me.">psst. click this.</button>
+    <button class="egg" data-msg="You looked very cute here.">and this.</button>
+    <button class="egg" data-msg="Okay fine. I was already falling for you.">one more.</button>
+  </div>
+  <p class="egg-reveal" id="eggReveal"></p>
+
+  <!-- DON'T CLICK -->
+  <div class="dont-click-block reveal">
+    <p>One last thing.</p>
+    <p class="handwritten">Don't click this.</p>
+    <button class="dont-click-btn" id="dontClickBtn">definitely don't click</button>
+    <p class="dont-click-response" id="dontClickResponse"></p>
+  </div>
+
+  <!-- FINAL -->
+  <div class="finale">
+    <p class="reveal fade-line">16</p>
+    <p class="reveal fade-line">And then&hellip;</p>
+    <p class="reveal fade-line">we went to a Shiv Mandir together.</p>
+
+    <div class="photo-frame final-photo reveal-photo" id="finalPhoto">
+      <img src="photos/16.JPEG" alt="Shiv Mandir" onerror="this.parentElement.classList.add('missing')">
+      <span class="missing-label">16.jpg</span>
+    </div>
+
+    <p class="reveal fade-line memory-lede">Shiv Mandir bhi ho aaye.</p>
+    <p class="reveal fade-line memory-lede">Now let's get married. &#128514;&#10084;&#65039;</p>
+  </div>
+</section>
+
+<!-- FINAL SCREEN -->
+<section class="screen final-screen">
+  <div class="final-inner reveal">
+    <p class="eyebrow-line">SHAR &times; SOURU</p>
+    <p class="final-infinity">28.06.2026 &rarr; &infin;</p>
+    <p class="final-arc">from besties&hellip; to gym bros&hellip; to boyfriend &amp; girlfriend&hellip; to whatever this beautiful mess becomes next.</p>
+    <p class="final-love">I love you, Souru.</p>
+    <p class="final-sign">&mdash; Shar</p>
+    <button class="replay-btn" id="replayBtn">replay our story &#8635;</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
